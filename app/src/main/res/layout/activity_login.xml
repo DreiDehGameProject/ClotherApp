@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Username"
-        android:id="@+id/lUsername"
+        android:id="@+id/textView"
         android:layout_centerVertical="true"
         android:layout_alignParentStart="true"
         android:textStyle="bold"
@@ -21,8 +21,8 @@
         android:layout_height="40dp"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/tUsername"
-        android:layout_below="@+id/lUsername"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:background="#ffe7e7e7"
@@ -34,9 +34,9 @@
         android:text="Password"
         android:textStyle="bold"
         android:textSize="20dp"
-        android:layout_below="@+id/tUsername"
+        android:layout_below="@+id/editText"
         android:layout_alignParentStart="true"
-        android:id="@+id/lPassword"
+        android:id="@+id/textView2"
         android:layout_marginBottom="15dp"/>
 
 
@@ -46,8 +46,8 @@
         android:layout_height="40dp"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/tPassword"
-        android:layout_below="@+id/lPassword"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:background="#ffe7e7e7"
@@ -60,8 +60,8 @@
         android:textSize="20dp"
         android:textStyle="bold"
 
-        android:id="@+id/bLogin"
-        android:layout_below="@+id/tPassword"
+        android:id="@+id/button"
+        android:layout_below="@+id/editText2"
         android:layout_centerHorizontal="true"
         android:background="#ff9dce58"
         android:textColor="#ffffffff" />
